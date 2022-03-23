@@ -1,0 +1,57 @@
+
+    
+#container {
+    width: 50%;
+    height: 100%;
+    margin : 20rem auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form {
+    width: 70%;
+    background-color: rgba(214, 207, 207, 0.5);
+    padding: 3rem 2rem 4rem 2rem;
+    display: flex;
+    
+
+}
+
+.col {
+    width: 70%;
+}
+
+#erreur {
+    text-align: left;
+}
+
+.erreur-saisie {
+    font-size: .7rem;
+    font-style: italic;
+    color: darkred; 
+    margin-top: 0;
+}
+
+.essaye-encore {
+    width: 70%;
+    height: auto;
+    background-color: rgba(252, 31, 31, 0.438);
+    color: darkred; 
+    text-align: left;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
+
+.bravo {
+    width: 70%;
+    height: auto;
+    background-color: rgba(9, 202, 9, 0.438);
+    color: darkgreen; 
+    text-align: left;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
